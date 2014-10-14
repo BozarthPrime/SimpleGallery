@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>SimpleGallery Demo</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="main.css">
+		
+		<!-- JavaScript -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<script src="../scripts/SimpleGallery.js"></script>
+		<link rel="stylesheet" href="../css/SimpleGallery.css">
+		
+		<script>
+			$(document).ready(function() {
+				$('.gallery').SimpleGallery();
+			});
+		</script>
+    </head>
+	<body>
+		<div class="site">
+			<div class="header">
+				<h1 class="title"><a href="/">SimpleGallery Demo</a></h1>
+			</div>
+			
+			<br /><br />
+
+			<h3>Gallery 1:</h3>
+			
+			<div class='gallery'>
+				<img src='SampleImages/GalaxyTruckerPieces.jpg' comment='Custom faces for the meeples in Galaxy Trucker.' />
+				<img src='SampleImages/GoBoard.jpg' />
+				<img src='SampleImages/MakingChristmas-CompleteTree.jpg' comment='My Chalkboard Christmas Tree' />
+				<img src='SampleImages/werewolf.png' />
+			</div>
+
+			<br /><br /><br />
+			
+			<h3>Gallery 2:</h3>
+			
+			<div class='gallery'>
+				<img src="SampleImages/simpleBuild1.jpg" comment='This is a magnetic mat that I got from iFixIt. If you ever do project with small metal parts like this I highly recommend getting one. It is even dry erase so you can label things.'/>
+				<img src="SampleImages/simpleBuild2.jpg" />
+				<img src="SampleImages/simpleBuild3.jpg" />
+				<img src="SampleImages/simpleBuild4.jpg" />
+				<img src="SampleImages/simpleBuild5.jpg" />
+			</div>
+
+			<div class="footer">
+				<div class="contact">
+					<p>
+						Coded by Joseph Bozarth
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
