@@ -71,4 +71,4 @@ jQuery:
 * closeImage: Path to an image for the close button (default: capital 'X' in consolas font)
 
 Images:
-comment: Adding this attribute on an image is how you add annotations to your gallery. Then the gallery is expanded they will display below the picture.
+* comment: Adding this attribute on an image is how you add annotations to your gallery. Then the gallery is expanded they will display below the picture.
