@@ -38,6 +38,26 @@ Example:
 </div>
 ```
 
+Example with options:
+```
+<script>
+	$(document).ready(function() {
+		$('.gallery').Gallery({
+			nextImage: "/images/right_arrow.gif", 
+			prevImage: "/images/left_arrow.gif",
+			closeImage: "/images/x.gif"
+		});
+	});
+</script>
+
+<div class='gallery'>
+	<img src='img1.jpg' comment='Custom faces for the meeples in Galaxy Trucker.' />
+	<img src='img2.jpg' />
+	<img src='img3.jpg' comment='My Chalkboard Christmas Tree' />
+	<img src='img4.png' />
+</div>
+```
+
 The comment attribute on the image is how you leave annotations for images.
 
 Options
