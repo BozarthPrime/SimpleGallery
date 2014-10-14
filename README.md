@@ -45,6 +45,8 @@ Example with options:
 <script>
 	$(document).ready(function() {
 		$('.gallery').SimpleGallery({
+			height: '200px',
+			width: '50%',
 			nextImage: "/images/right_arrow.gif", 
 			prevImage: "/images/left_arrow.gif",
 			closeImage: "/images/x.gif"
@@ -62,10 +64,8 @@ The comment attribute on the image is how you leave annotations for images.
 
 Options
 ------------------
-* height: The maximum height a gallery can be, if it would be over this it will scroll (default: 500)
-* width: The width of the gallery (default: 100)
-* heightIsPercent: If the height is px or percent (default: false)
-* widthIsPercent: If the width is px or percent (default: true)
+* height: The maximum height a gallery can be, if it would be over this it will scroll (default: '500px')
+* width: The width of the gallery (default: '100%')
 * nextImage: Path to an image for the next image button (default: text reading 'Next')
 * prevImage: Path to an image for the previous image button (default: text reading 'Prev.')
 * closeImage: Path to an image for the close button (default: capital 'X' in consolas font)

@@ -1,10 +1,8 @@
 (function ($) {
     $.fn.SimpleGallery = function (options) {
         var settings = $.extend({
-            height: 500,
-            width: 100,
-			heightIsPercent: false,
-			widthIsPercent: true,
+            height: '500px',
+            width: '100%',
 			nextImage: "",
 			prevImage: "",
 			closeImage: ""
@@ -37,22 +35,11 @@
 			$('#lightbox').append("<div id='img-prev'>Prev.</div>");
 		}
 		
-		
 		element.css('text-align', 'center');
 		element.css('vertical-align', 'middle');
 		element.css('overflow', 'auto');
-		
-		if (settings.heightIsPercent) {
-			element.css('max-height', settings.height + '%');
-		} else {
-			element.css('max-height', settings.height + 'px');
-		}
-		
-		if (settings.widthIsPercent) {
-			element.css('width', settings.width + '%');
-		} else {
-			element.css('width', settings.width + 'px');
-		}
+		element.css('max-height', settings.height);
+		element.css('width', settings.width);
 		
 		var galleryImages = element.children('img');
 		
