@@ -60,12 +60,15 @@ Example with options:
 </div>
 ```
 
-The comment attribute on the image is how you leave annotations for images.
 
-Options
+Options & Attributes
 ------------------
+jQuery:
 * height: The maximum height a gallery can be, if it would be over this it will scroll (default: '500px')
 * width: The width of the gallery (default: '100%')
 * nextImage: Path to an image for the next image button (default: text reading 'Next')
 * prevImage: Path to an image for the previous image button (default: text reading 'Prev.')
 * closeImage: Path to an image for the close button (default: capital 'X' in consolas font)
+
+Images:
+comment: Adding this attribute on an image is how you add annotations to your gallery. Then the gallery is expanded they will display below the picture.
