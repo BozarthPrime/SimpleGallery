@@ -26,7 +26,7 @@ Example:
 ```
 <script>
 	$(document).ready(function() {
-		$('.gallery').Gallery();
+		$('.gallery').SimpleGallery();
 	});
 </script>
 
@@ -42,7 +42,7 @@ Example with options:
 ```
 <script>
 	$(document).ready(function() {
-		$('.gallery').Gallery({
+		$('.gallery').SimpleGallery({
 			nextImage: "/images/right_arrow.gif", 
 			prevImage: "/images/left_arrow.gif",
 			closeImage: "/images/x.gif"
