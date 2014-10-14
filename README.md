@@ -23,7 +23,7 @@ Usage
 The idea is that you will have a class that will denote your galleries (I will use '.gallery' in my example) and you just call SimpleGallery() on that class on document ready. All objects with that class will become galleries. You can do this with multiple classes with different settings if you wish.
 
 Example:
-
+```
 <script>
 	$(document).ready(function() {
 		$('.gallery').Gallery();
@@ -36,6 +36,7 @@ Example:
 	<img src='img3.jpg' comment='My Chalkboard Christmas Tree' />
 	<img src='img4.png' />
 </div>
+```
 
 The comment attribute on the image is how you leave annotations for images.
 
