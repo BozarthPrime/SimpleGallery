@@ -31,9 +31,9 @@ Example:
 </script>
 
 <div class='gallery'>
-	<img src='img1.jpg' comment='Custom faces for the meeples in Galaxy Trucker.' />
+	<img src='img1.jpg' comment='Picture annotation example 1' />
 	<img src='img2.jpg' />
-	<img src='img3.jpg' comment='My Chalkboard Christmas Tree' />
+	<img src='img3.jpg' comment='Picture annotation example 2' />
 	<img src='img4.png' />
 </div>
 ```
@@ -51,10 +51,8 @@ Example with options:
 </script>
 
 <div class='gallery'>
-	<img src='img1.jpg' comment='Custom faces for the meeples in Galaxy Trucker.' />
-	<img src='img2.jpg' />
-	<img src='img3.jpg' comment='My Chalkboard Christmas Tree' />
-	<img src='img4.png' />
+	<img src='img5.jpg' />
+	<img src='img6.jpg' />
 </div>
 ```
 
@@ -62,10 +60,10 @@ The comment attribute on the image is how you leave annotations for images.
 
 Options
 ------------------
-height: The maximum height a gallery can be, if it would be over this it will scroll (default: 500)
-width: The width of the gallery (default: 100)
-heightIsPercent: If the height is px or percent (default: false)
-widthIsPercent: If the width is px or percent (default: true)
-nextImage: Path to an image for the next image button (default: text reading 'Next')
-prevImage: Path to an image for the previous image button (default: text reading 'Prev.')
-closeImage: Path to an image for the close button (default: capital 'X' in consolas font)
+* height: The maximum height a gallery can be, if it would be over this it will scroll (default: 500)
+* width: The width of the gallery (default: 100)
+* heightIsPercent: If the height is px or percent (default: false)
+* widthIsPercent: If the width is px or percent (default: true)
+* nextImage: Path to an image for the next image button (default: text reading 'Next')
+* prevImage: Path to an image for the previous image button (default: text reading 'Prev.')
+* closeImage: Path to an image for the close button (default: capital 'X' in consolas font)
